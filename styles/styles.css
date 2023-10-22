@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: var(--body);
+    font-family: 'Poppins';
+}
+
+#principal {
+    width: 70%;
+    margin: 25px auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#div-perfil {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#img-div {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#img-div p {
+    text-align: center;
+}
+
+#img-perfil {
+    padding: 5px;
+    border: 3px solid var(--purple);
+    width: 160px;
+    border-radius: 50%;
+}
+
+#p-instagram {
+    margin-top: 10px;
+}
+
+#p-instagram, #p-rodape {
+    text-align: center;
+    font-weight: 300;
+}
+
+#p-instagram a, #p-rodape a {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+#section-links {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.div-botoes {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.botoes-links {
+    display: block;
+    width: 45%;
+    height: 35px;
+    margin: 30px auto;
+    background-color: var(--body);
+    border: 2px solid var(--purple);
+    font-weight: 600;
+    color: var(--purple);
+    font-size: 12px;
+}
+
+.a-botoes {
+    text-decoration: none;
+}
+
+
+#section-redes {
+    margin-top: 20px;
+}
+
+#div-redes {
+    width: 70%;
+    margin: 0 auto;
+    display: inline;
+}
+
+#lista-redes {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#lista-redes li {
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
